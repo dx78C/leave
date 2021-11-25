@@ -6,6 +6,7 @@
 
 Leave under some special circumstances.
 
+**准备一个GitHub账号**
 ## 使用方法
 
 ### 1. fork此项目
@@ -21,7 +22,7 @@ Settings->Pages:
 
 ![start Github Pages](img/2.png)
 
-**访问page：https://GitHub username.github.io/leave**
+**访问(username是自己的GitHub用户名)：https://username.github.io/leave**
 
 ## licence
 [MIT](LICENSE)
