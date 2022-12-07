@@ -77,19 +77,19 @@
   <script src="./index/index.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript">
     function getUserInfo() {
-      var reason = ["实验室活动", "实验室活动", "实验室团日活动", "学院活动", "导师交代任务", "导师交代任务", "身体不适去医院看病", "牙疼去医院", "身份证丢失补办", "没有理由", "今天就想去吃南门的煎饼果子", "I want to look at the scenery outside！"];
+      var reason = [ "身体不适去医院看病", "牙疼去医院", "身份证丢失补办", "银行卡挂失", "配眼镜"];
 
-      var getUid = "&nbsp;&nbsp;(" + 2021010433 + ")";
+      var getUid = "&nbsp;&nbsp;(" + 202110203005 + ")";
       var getUname = "赵子生";
       document.getElementById('nameAndId').innerHTML = getUname + getUid;
 
 
-      document.getElementById('college').innerHTML = "计算机科学与工程学院/软件学院";
+      document.getElementById('college').innerHTML = "历史文化与旅游学院";
       // document.getElementById('college').innerHTML =  = "计算机科学与工程学院";
    
-      document.getElementById('major').innerHTML = "软件工程";
+      document.getElementById('major').innerHTML = "酒店管理";
       document.getElementById('reason').innerHTML = reason[Math.floor((Math.random() * reason.length))];
-      document.getElementById('whereabouts').innerHTML = "桂林";
+      document.getElementById('whereabouts').innerHTML = "秀峰";
 
       // // var arr = [ "实验室团日活动",  "实验室团日活动","实验室团日活动",  "实验室团日活动","导师交代任务","导师交代任务","身体不适去医院看病",  "牙疼去医院", "身份证丢失补办", "没有理由", "今天就想去吃南门的煎饼果子", "I want to look at the scenery outside！"];
       //         //alert(arr[Math.floor((Math.random()*arr.length))]);
@@ -99,8 +99,8 @@
       res = goDate();
       stTime = Math.floor(Math.random() * (30 - 10)) + 10;
       endTime = Math.floor(Math.random() * (60 - 40)) + 40;
-      var getStartDate = res[0] + " 06:" + stTime + ":00";
-      var getEndDate = res[1] + " 23:" + endTime + ":00";
+      var getStartDate = res[0] + " 08:" + stTime + ":00";
+      var getEndDate = res[1] + " 21:" + endTime + ":00";
       document.getElementById('startDate').innerHTML = getStartDate;
       document.getElementById('endDate').innerHTML = getEndDate;
 
