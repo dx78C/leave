@@ -6,6 +6,8 @@
 
 Leave under some special circumstances.
 
+demo: https://dx78c.github.io/leave/
+
 **准备一个GitHub账号**
 ## 使用方法
 
